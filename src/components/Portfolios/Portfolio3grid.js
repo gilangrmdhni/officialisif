@@ -130,17 +130,48 @@ class Portfolio3grid extends Component {
               ptitle="ISIF 2019"
             />
 
-            {/* <Photo colClass="col-lg-4 col-sm-6 develop" pImg="3-columns/3_col_2.jpg" ptitle="Interior Design" tOne="Develop"/>
-                        <Photo colClass="col-lg-4 col-sm-6 web" pImg="3-columns/3_col_3.jpg" ptitle="Portfolio Center Slider" tOne="Web" tTwo="Fashion"/>
-                        <Photo colClass="col-lg-4 col-sm-6 fashion" pImg="3-columns/3_col_4.jpg" ptitle="Portfolio Masonry" tOne="fashion"/>
-                        <Photo colClass="col-lg-4 col-sm-6 ux brand" pImg="3-columns/3_col_5.jpg" ptitle="Double Exposure" tOne="UX" tTwo="Brand"/>
-                        <Photo colClass="col-lg-4 col-sm-6 product" pImg="3-columns/3_col_6.jpg" ptitle="American Burger" tOne="Product" />
-                        <Photo colClass="col-lg-4 col-sm-6 develop fashion" pImg="3-columns/3_col_7.jpg" ptitle="Double Exposure" tOne="Develop" tTwo="Fashion"/>
-                        <Photo colClass="col-lg-4 col-sm-6 brand ux" pImg="3-columns/3_col_8.jpg" ptitle="Inner Smart Watch" tOne="Brand" tTwo="UX"/>
-                        <Photo colClass="col-lg-4 col-sm-6 brand web" pImg="3-columns/3_col_9.jpg" ptitle="Portfolio Masonry" tOne="Brand" tTwo="UX"/>
-                        <Photo colClass="col-lg-4 col-sm-6 develop" pImg="3-columns/3_col_10.jpg" ptitle="Interior Design" tOne="Develop"/>
-                        <Photo colClass="col-lg-4 col-sm-6 fashion" pImg="3-columns/3_col_11.jpg" ptitle="Portfolio Masonry" tOne="fashion"/>
-                        <Photo colClass="col-lg-4 col-sm-6 develop fashion" pImg="3-columns/3_col_12.jpg" ptitle="Double Exposure" tOne="Develop" tTwo="Fashion"/> */}
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2020/1.jpg"
+              ptitle="2020"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2020/2.jpg"
+              ptitle="2020"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2020/3.jpg"
+              ptitle="2020"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2020/4.jpg"
+              ptitle="2020"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2020/5.jpg"
+              ptitle="2020"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2020/6.jpg"
+              ptitle="2020"
+            />
+
+            {/* example */}
+            {/* <Photo colClass="col-lg-4 col-sm-6 web" pImg="3-columns/2020/2.jpg" ptitle="2020" />
+            <Photo colClass="col-lg-4 col-sm-6 fashion" pImg="3-columns/2020/3.jpg" ptitle="2020" />
+            <Photo colClass="col-lg-4 col-sm-6 ux brand" pImg="3-columns/2020/4.jpg" ptitle="2020" />
+            <Photo colClass="col-lg-4 col-sm-6 product" pImg="3-columns/2020/5.jpg" ptitle="2020"  />
+            <Photo colClass="col-lg-4 col-sm-6 develop fashion" pImg="3-columns/2020/6.jpg" ptitle="2020" />
+            <Photo colClass="col-lg-4 col-sm-6 brand ux" pImg="3-columns/3_col_8.jpg" ptitle="Inner Smart Watch" tOne="Brand" tTwo="UX"/>
+            <Photo colClass="col-lg-4 col-sm-6 brand web" pImg="3-columns/3_col_9.jpg" ptitle="Portfolio Masonry" tOne="Brand" tTwo="UX"/>
+            <Photo colClass="col-lg-4 col-sm-6 develop" pImg="3-columns/3_col_10.jpg" ptitle="Interior Design" tOne="Develop"/>
+            <Photo colClass="col-lg-4 col-sm-6 fashion" pImg="3-columns/3_col_11.jpg" ptitle="Portfolio Masonry" tOne="fashion"/>
+            <Photo colClass="col-lg-4 col-sm-6 develop fashion" pImg="3-columns/3_col_12.jpg" ptitle="Double Exposure" tOne="Develop" tTwo="Fashion"/> */}
           </div>
         </div>
       </section>
