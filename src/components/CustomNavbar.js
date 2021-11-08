@@ -4,13 +4,30 @@ import Sticky from 'react-stickynode';
 
 class CustomNavbar extends Component {
   render() {
-    var { mClass, nClass, cClass, slogo, hbtnClass } = this.props;
+    var {
+      mClass,
+      nClass,
+      cClass,
+      slogo,
+      hbtnClass,
+    } = this.props;
     return (
-      <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
+      <Sticky
+        top={0}
+        innerZ={9999}
+        activeClass="navbar_fixed"
+      >
         <header className="header_area">
-          <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
-            <div className={`container ${cClass}`}>
-              <Link className={`navbar-brand ${slogo}`} to="/">
+          <nav
+            className={`navbar navbar-expand-lg menu_one ${mClass}`}
+          >
+            <div
+              className={`container ${cClass}`}
+            >
+              <Link
+                className={`navbar-brand ${slogo}`}
+                to="/"
+              >
                 <img
                   src={require('../img/home_isif.png')}
                   alt=""
@@ -52,9 +69,15 @@ class CustomNavbar extends Component {
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
               >
-                <ul className={`navbar-nav menu ml-auto ${nClass}`}>
+                <ul
+                  className={`navbar-nav menu ml-auto ${nClass}`}
+                >
                   <li className="nav-item ">
-                    <Link to="/" className="nav-link" title="home">
+                    <Link
+                      to="/"
+                      className="nav-link"
+                      title="home"
+                    >
                       Home
                     </Link>
                     {/* <div className="mega_menu_inner">
@@ -209,12 +232,20 @@ class CustomNavbar extends Component {
                     </ul>
                   </li> */}
                   <li className="nav-item">
-                    <Link to="/About" className="nav-link" title="About Us">
+                    <Link
+                      to="/About"
+                      className="nav-link"
+                      title="About Us"
+                    >
                       About
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/Process" className="nav-link" title="Process">
+                    <Link
+                      to="/Process"
+                      className="nav-link"
+                      title="Process"
+                    >
                       Process
                     </Link>
                   </li>
@@ -230,7 +261,10 @@ class CustomNavbar extends Component {
                     >
                       Downloads
                     </Link>
-                    <ul role="menu" className=" dropdown-menu">
+                    <ul
+                      role="menu"
+                      className=" dropdown-menu"
+                    >
                       {/* <li className="nav-item">
                         <NavLink exact title="About" className="nav-link" to="/About">
                           About
@@ -289,7 +323,10 @@ class CustomNavbar extends Component {
                     >
                       Galery
                     </Link>
-                    <ul role="menu" className=" dropdown-menu">
+                    <ul
+                      role="menu"
+                      className=" dropdown-menu"
+                    >
                       {/* <li className="nav-item">
                         <NavLink title="Portfolio 2" className="nav-link" to="/Portfolio-2col">
                           Portfolio 2col
@@ -373,9 +410,22 @@ class CustomNavbar extends Component {
                     </ul>
                   </li> */}
                   <li className="nav-item">
-                    <NavLink title="Pricing" className="nav-link" to="/Contact">
+                    <NavLink
+                      title="Contac"
+                      className="nav-link"
+                      to="/Contact"
+                    >
                       Contact
                     </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      title="Winner"
+                      className="nav-link"
+                      href="https://drive.google.com/drive/folders/1h04ED_n4wkPIHJUyoJIbnebyijpg5tTm?usp=sharing"
+                    >
+                      Winner
+                    </a>
                   </li>
                 </ul>
                 <a
