@@ -252,7 +252,7 @@ class CustomNavbar extends Component {
                   <li className="dropdown submenu nav-item">
                     <Link
                       to="./"
-                      title="Pages"
+                      title="download"
                       className="dropdown-toggle nav-link"
                       data-toggle="dropdown"
                       role="button"
@@ -290,7 +290,7 @@ class CustomNavbar extends Component {
                           title="Supervisor Indonesia"
                           className="nav-link"
                         >
-                          Guide Book
+                          Supervisor Indonesia
                         </a>
                       </li>
                       {/* <li className="nav-item">
@@ -322,7 +322,7 @@ class CustomNavbar extends Component {
                   </li>
                   <li className="dropdown submenu nav-item">
                     <Link
-                      title="Pages"
+                      title="Gallery"
                       className="dropdown-toggle nav-link"
                       data-toggle="dropdown"
                       role="button"
@@ -330,7 +330,7 @@ class CustomNavbar extends Component {
                       aria-expanded="false"
                       to="#"
                     >
-                      Galery
+                      Gallery
                     </Link>
                     <ul
                       role="menu"
