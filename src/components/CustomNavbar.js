@@ -284,6 +284,15 @@ class CustomNavbar extends Component {
                           Guide Book
                         </a>
                       </li>
+                      <li className="nav-item">
+                        <a
+                          href="https://drive.google.com/drive/folders/1IC52IleDduUCMykdzUKdP7IFJVGUVuLk?usp=sharing"
+                          title="Supervisor Indonesia"
+                          className="nav-link"
+                        >
+                          Guide Book
+                        </a>
+                      </li>
                       {/* <li className="nav-item">
                         <NavLink exact title="Team" className="nav-link" to="/Team">
                           Team
