@@ -287,10 +287,10 @@ class CustomNavbar extends Component {
                       <li className="nav-item">
                         <a
                           href="https://drive.google.com/drive/folders/1IC52IleDduUCMykdzUKdP7IFJVGUVuLk?usp=sharing"
-                          title="Supervisor Indonesia"
+                          title="Supervisor"
                           className="nav-link"
                         >
-                          Supervisor Indonesia
+                          Supervisor
                         </a>
                       </li>
                       {/* <li className="nav-item">
