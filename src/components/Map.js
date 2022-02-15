@@ -33,7 +33,7 @@ export class MapContainer extends Component {
     };
     return (
       <section className="contact_map">
-        <Map google={this.props.google} zoom={16} initialCenter={{ lat: -6.406513, lng: 106.7745171 }} style={mapStyles}>
+        <Map google={this.props.google} zoom={16} initialCenter={{ lat: -6.4312926, lng: 106.7821611 }} style={mapStyles}>
           {this.displayMarkers()}
         </Map>
       </section>
