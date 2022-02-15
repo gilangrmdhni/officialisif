@@ -149,7 +149,7 @@ const FooterData = {
       git: 'ti-github',
     },
   ],
-  copywrite: '© Copyright ISIF Official. 2021 All rights reserved.',
+  copywrite: '© Copyright ISIF Official. 2022 All rights reserved.',
   TestimonialText: [
     {
       id: 1,

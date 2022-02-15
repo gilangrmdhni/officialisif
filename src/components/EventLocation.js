@@ -9,9 +9,9 @@ const EventLocation = () => {
           <div className="contact_info_item">
             <h6>Our Office</h6>
             <p>
-              JL. RAYA PASIR PUTIH
+            Jl. Kemang No. 63 RT 03 RW 06
               <br />
-              Depok, Jawa Barat 16511, Indonesia.
+            kp. kekupu, Jawa Barat 16519, Indonesia.
             </p>
           </div>
           <div className="contact_info_item">
