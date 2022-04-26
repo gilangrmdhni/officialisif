@@ -277,14 +277,14 @@ class CustomNavbar extends Component {
                       </li> */}
                       <li className="nav-item">
                         <a
-                          href="https://drive.google.com/drive/folders/195oPkTAYTc3JriGHXibKFtN0uUJCB_Er?usp=sharing"
+                          href="https://drive.google.com/file/d/1ilWuOn5-sOq2yY7S-vD5WyEc53S1RS4N/view?usp=sharing"
                           title="Guide Book"
                           className="nav-link"
                         >
                           Guide Book
                         </a>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <a
                           href="https://drive.google.com/drive/folders/1IC52IleDduUCMykdzUKdP7IFJVGUVuLk?usp=sharing"
                           title="Supervisor"
@@ -292,7 +292,7 @@ class CustomNavbar extends Component {
                         >
                           Supervisor
                         </a>
-                      </li>
+                      </li> */}
                       {/* <li className="nav-item">
                         <NavLink exact title="Team" className="nav-link" to="/Team">
                           Team
@@ -427,7 +427,7 @@ class CustomNavbar extends Component {
                       Contact
                     </NavLink>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       title="Winner"
                       className="nav-link"
@@ -435,11 +435,11 @@ class CustomNavbar extends Component {
                     >
                       Winner
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
                 <a
                   className={`btn_get btn_hover ${hbtnClass}`}
-                  href="https://forms.gle/779nrDM9gNRBtYHNA"
+                  href="https://forms.gle/fBsiwVdX8Lc6MY618"
                 >
                   ISIF Registration
                 </a>
