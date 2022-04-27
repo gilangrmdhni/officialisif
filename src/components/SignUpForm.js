@@ -8,7 +8,7 @@ const SignUpForm = () => {
           <div className="row">
             <iframe
               title="From Registrattion"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeEIX97FstnDxVtDj_pb7M7_b5Xdu_l4_YQXmF0yA2MMeVurw/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeREmv0aco2Y9JufAVqGPdHX-YFdZ3-yTCNXi8LweRr6H05aA/viewform?embedded=true"
               width="1200"
               height="520"
               frameborder="0"

@@ -5,14 +5,15 @@ class HostingPlan extends Component {
   constructor() {
     super();
     this.state = {
-      National: [
+      Online: [
         {
           id: 1,
-          title: 'Online can get (fee registration, Certificate, medals and shipping fee) & Offline can get (fee registration, booth, medals and certificate)',
+          title: 'Shipping medals, 1 medal / team and certificate for each person in the team.',
+          titlePlus: 'International Participant Only Registration Fee, Students (Elementary,Secondary,University) (each participant will get only e-certificate).',
           priceList: [
             {
               id: 1,
-              Categories: 'Online',
+              Categories: 'National',
               //   Vcpus: '1 vCPU',
               //   Ssd: '125 GB',
               //   Transfer: '1 TB',
@@ -21,7 +22,7 @@ class HostingPlan extends Component {
             },
             {
               id: 2,
-              Categories: 'Offline',
+              Categories: 'International',
               //   Vcpus: '2 vCPU',
               //   Ssd: '100 GB',
               //   Transfer: '2 TB',
@@ -31,7 +32,7 @@ class HostingPlan extends Component {
           ],
         },
       ],
-      National1: [
+      Offline: [
         {
           id: 2,
           title: 'Online can get (fee registration, Certificate, medals and shipping fee) and Free access Rumah Riset Application for 6 months, and consultation with a mentor for 1 month ',
@@ -39,11 +40,12 @@ class HostingPlan extends Component {
           priceList: [
             {
               id: 1,
-              Categories: 'Online',
+              Categories: 'National',
               //   Vcpus: '1 vCPU',
               //   Ssd: '125 GB',
               //   Transfer: '1 TB',
-              Price: 'Rp. 950.000',
+              Price: 'Rp. 2.500.000',
+              Excursion: '1 TB',
               PriceS: '/Team',
             },
             {
