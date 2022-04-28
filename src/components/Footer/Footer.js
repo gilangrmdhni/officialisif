@@ -40,7 +40,7 @@ class Footer extends Component {
                             return (
                               <li key={item.id}>
                                 <a href={item.url}>{item.text}</a>
-                                <a href="https://drive.google.com/drive/folders/195oPkTAYTc3JriGHXibKFtN0uUJCB_Er?usp=sharing">{item.data}</a>
+                                <a href="https://drive.google.com/file/d/1ilWuOn5-sOq2yY7S-vD5WyEc53S1RS4N/view?usp=sharing">{item.data}</a>
                               </li>
                             );
                           })}
