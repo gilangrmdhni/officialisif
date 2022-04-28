@@ -38,11 +38,11 @@ const FooterData = {
       id: 2,
       title: 'Help',
       menuItems: [
-        {
-          id: 1,
-          url: '/Faq',
-          text: 'FAQ',
-        },
+        // {
+        //   id: 1,
+        //   url: '/Faq',
+        //   text: 'FAQ',
+        // },
         {
           id: 2,
           url: '/Contact',
