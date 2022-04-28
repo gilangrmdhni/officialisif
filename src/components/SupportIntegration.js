@@ -36,6 +36,11 @@ class SupportIntegration extends Component {
           iImage: 'social-science.png',
           text: 'SOCIAL SCIENCE',
         },
+        {
+          id: 106,
+          iImage: 'education.png',
+          text: 'EDUCATION',
+        },
       ],
     };
   }
@@ -44,22 +49,42 @@ class SupportIntegration extends Component {
     return (
       <section className="support_integration_area">
         <div className="container">
-          <Sectitle sClass="sec_title text-center mb_70" Title="Event Categories" TitleP="Join our event and select your categories" />
+          <Sectitle
+            sClass="sec_title text-center mb_70"
+            Title="Event Categories"
+            TitleP="Join our event and select your categories"
+          />
           <div className="row flex-row-reverse">
             <div className="col-lg-9 col-md-10 col-sm-12">
               <div className="row">
-                {this.state.integrationItem.map((post) => (
-                  <div className="col-lg-4 col-md-4 col-sm-6" key={post.id}>
-                    <a href="/#" className="s_integration_item">
-                      <img src={require('../img/new-home/' + post.iImage)} alt="" />
-                      <h5>{post.text}</h5>
-                    </a>
-                  </div>
-                ))}
+                {this.state.integrationItem.map(
+                  (post) => (
+                    <div
+                      className="col-lg-4 col-md-4 col-sm-6"
+                      key={post.id}
+                    >
+                      <a
+                        href="/#"
+                        className="s_integration_item"
+                      >
+                        <img
+                          src={require('../img/new-home/' +
+                            post.iImage)}
+                          alt=""
+                        />
+                        <h5>{post.text}</h5>
+                      </a>
+                    </div>
+                  )
+                )}
               </div>
             </div>
             <div className="col-lg-3 col-md-2 col-sm-12">
-              <img className="integration_img" src={require('../img/new-home/tree.png')} alt="" />
+              <img
+                className="integration_img"
+                src={require('../img/new-home/tree.png')}
+                alt=""
+              />
             </div>
           </div>
         </div>

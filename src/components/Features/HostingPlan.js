@@ -5,15 +5,18 @@ class HostingPlan extends Component {
   constructor() {
     super();
     this.state = {
-      Online: [
+      National: [
         {
           id: 1,
-          title: 'Shipping medals, 1 medal / team and certificate for each person in the team.',
-          titlePlus: 'International Participant Only Registration Fee, Students (Elementary,Secondary,University) (each participant will get only e-certificate).',
+          title:
+            'Shipping medals, 1 medal / team and certificate for each person in the team.',
+          titlePlus:
+            'International Participant Only Registration Fee & Students (Elementary,Secondary,University) (each participant will get only e-certificate).',
           priceList: [
             {
               id: 1,
-              Categories: 'National',
+              Categories:
+                'Indonesian Participant',
               //   Vcpus: '1 vCPU',
               //   Ssd: '125 GB',
               //   Transfer: '1 TB',
@@ -22,61 +25,45 @@ class HostingPlan extends Component {
             },
             {
               id: 2,
-              Categories: 'International',
+              Categories:
+                'International Participant',
               //   Vcpus: '2 vCPU',
               //   Ssd: '100 GB',
               //   Transfer: '2 TB',
-              Price: 'Rp. 2.500.000',
+              Price: '$50 USD',
               PriceS: '/team',
             },
           ],
         },
       ],
-      Offline: [
+      National1: [
         {
           id: 2,
-          title: 'Online can get (fee registration, Certificate, medals and shipping fee) and Free access Rumah Riset Application for 6 months, and consultation with a mentor for 1 month ',
-          titlePlus: 'Offline can get (fee registration, booth, medals and certificate) and Free access Rumah Riset Application for 6 months, and consultation with a mentor for 1 month ',
+          title:
+            'T-Shirt for 3 people, Booth, tables and chairs, Lunch for 3 people x 1 day (at the time of judging) & snack for 3 people x 2 days, 1 medal / team and certificate for each person on the team.',
+          titlePlus:
+            'Offline can get (fee registration, booth, medals and certificate) and Free access Rumah Riset Application for 6 months, and consultation with a mentor for 1 month ',
           priceList: [
             {
               id: 1,
-              Categories: 'National',
+              Categories:
+                'Indonesian Participant',
               //   Vcpus: '1 vCPU',
               //   Ssd: '125 GB',
               //   Transfer: '1 TB',
               Price: 'Rp. 2.500.000',
-              Excursion: '1 TB',
               PriceS: '/Team',
             },
             {
               id: 2,
-              Categories: 'Offline',
-              //   Vcpus: '2 vCPU',
-              //   Ssd: '100 GB',
-              //   Transfer: '2 TB',
-              Price: 'Rp. 2.600.000',
-              PriceS: '/Team',
-            },
-          ],
-        },
-      ],
-      International: [
-        {
-          id: 3,
-          title: 'Online can get (e-certificate only) & Offline can get (fee registration, booth, medals and certificate) ',
-          priceList: [
-            {
-              id: 1,
-              Categories: 'Online',
-              //   Vcpus: '1 vCPU',
-              //   Ssd: '125 GB',
-              //   Transfer: '1 TB',
-              Price: '$35 USD',
-              PriceS: '/Team',
+              Categories: 'Excursion',
+              Price: 'Rp. 1.000.000',
+              PriceS: '/Person',
             },
             {
-              id: 2,
-              Categories: 'Offline',
+              id: 3,
+              Categories:
+                'International Participant',
               //   Vcpus: '2 vCPU',
               //   Ssd: '100 GB',
               //   Transfer: '2 TB',
@@ -86,42 +73,112 @@ class HostingPlan extends Component {
           ],
         },
       ],
+      International: [
+        {
+          id: 3,
+          title:
+            '(EXCLUDE REGISTRATION FEE), Pickup from Airport, Local Transportation, Hotels, Meals, Excursion.',
+          priceList: [
+            {
+              id: 1,
+              Categories:
+                'Full Pack International',
+              //   Vcpus: '1 vCPU',
+              //   Ssd: '125 GB',
+              //   Transfer: '1 TB',
+              Price: '$500 USD',
+              PriceS: '/Person',
+            },
+            // {
+            //   id: 2,
+            //   Categories: 'Offline',
+            //   //   Vcpus: '2 vCPU',
+            //   //   Ssd: '100 GB',
+            //   //   Transfer: '2 TB',
+            //   Price: '$300 USD',
+            //   PriceS: '/Team',
+            // },
+          ],
+        },
+      ],
     };
   }
   render() {
     return (
       <section className="h_pricing_area sec_pad">
         <div className="container">
-          <Sectitle Title="Info Payment Registration" TitleP="" sClass="hosting_title text-center" />
+          <Sectitle
+            Title="Info Payment Registration"
+            TitleP=""
+            sClass="hosting_title text-center"
+          />
           <div className="h_price_inner">
-            <ul className="nav nav-tabs hosting_tab" id="myTab" role="tablist">
+            <ul
+              className="nav nav-tabs hosting_tab"
+              id="myTab"
+              role="tablist"
+            >
               <li className="nav-item">
-                <a className="nav-link active" id="national-tab" data-toggle="tab" href="#national" role="tab" aria-controls="national" aria-selected="true">
-                  National
+                <a
+                  className="nav-link active"
+                  id="national-tab"
+                  data-toggle="tab"
+                  href="#national"
+                  role="tab"
+                  aria-controls="national"
+                  aria-selected="true"
+                >
+                  Online
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" id="national1-tab" data-toggle="tab" href="#national1" role="tab" aria-controls="national1" aria-selected="false">
-                  National+
+                <a
+                  className="nav-link"
+                  id="national1-tab"
+                  data-toggle="tab"
+                  href="#national1"
+                  role="tab"
+                  aria-controls="national1"
+                  aria-selected="false"
+                >
+                  Offline
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" id="inter-tab" data-toggle="tab" href="#inter" role="tab" aria-controls="inter" aria-selected="false">
-                  International
+                <a
+                  className="nav-link"
+                  id="inter-tab"
+                  data-toggle="tab"
+                  href="#inter"
+                  role="tab"
+                  aria-controls="inter"
+                  aria-selected="false"
+                >
+                  Full Pack
                 </a>
               </li>
             </ul>
-            <div className="tab-content h_price_tab" id="myTabContent">
-              <div className="tab-pane fade show active" id="national" role="tabpanel" aria-labelledby="national-tab">
-                {this.state.National.map((post) => (
-                  <React.Fragment key={post.id}>
-                    <p>{post.title}</p>
-                    <div className="h_price_body">
-                      <div className="price_head">
-                        <div className="p_head">
-                          <h5>Categories</h5>
-                        </div>
-                        {/* <div className="p_head">
+            <div
+              className="tab-content h_price_tab"
+              id="myTabContent"
+            >
+              <div
+                className="tab-pane fade show active"
+                id="national"
+                role="tabpanel"
+                aria-labelledby="national-tab"
+              >
+                {this.state.National.map(
+                  (post) => (
+                    <React.Fragment key={post.id}>
+                      <p>{post.title}</p>
+                      <p>{post.titlePlus}</p>
+                      <div className="h_price_body">
+                        <div className="price_head">
+                          <div className="p_head">
+                            <h5>Categories</h5>
+                          </div>
+                          {/* <div className="p_head">
                           <h5>Vcpus</h5>
                         </div>
                         <div className="p_head">
@@ -130,19 +187,30 @@ class HostingPlan extends Component {
                         <div className="p_head">
                           <h5>Transfer</h5>
                         </div> */}
-                        <div className="p_head">
-                          <h5>Price</h5>
+                          <div className="p_head">
+                            <h5>Price</h5>
+                          </div>
+                          <div className="p_head c_width"></div>
                         </div>
-                        <div className="p_head c_width"></div>
-                      </div>
-                      <div className="h_price_body">
-                        {post.priceList.map((list) => {
-                          return (
-                            <div className="h_p_list" key={list.id}>
-                              <div className="h_price_item Categories" data-title="Categories">
-                                <h5>{list.Categories}</h5>
-                              </div>
-                              {/* <div className="h_price_item" data-title="Vcpus">
+                        <div className="h_price_body">
+                          {post.priceList.map(
+                            (list) => {
+                              return (
+                                <div
+                                  className="h_p_list"
+                                  key={list.id}
+                                >
+                                  <div
+                                    className="h_price_item Categories"
+                                    data-title="Categories"
+                                  >
+                                    <h5>
+                                      {
+                                        list.Categories
+                                      }
+                                    </h5>
+                                  </div>
+                                  {/* <div className="h_price_item" data-title="Vcpus">
                                 <h5>{list.Vcpus}</h5>
                               </div>
                               <div className="h_price_item" data-title="Ssd disk">
@@ -151,38 +219,59 @@ class HostingPlan extends Component {
                               <div className="h_price_item" data-title="Transfer">
                                 <h5>{list.Transfer}</h5>
                               </div> */}
-                              <div className="h_price_item" data-title="Price">
-                                <h5>
-                                  <span>{list.Price}</span>
-                                  {list.PriceS}
-                                </h5>
-                              </div>
-                              <div className="h_price_item c_width">
-                                <h5>
-                                  <a href="/SignUp" className="h_price_btn">
-                                    Choose Plan
-                                  </a>
-                                </h5>
-                              </div>
-                            </div>
-                          );
-                        })}
+                                  <div
+                                    className="h_price_item"
+                                    data-title="Price"
+                                  >
+                                    <h5>
+                                      <span>
+                                        {
+                                          list.Price
+                                        }
+                                      </span>
+                                      {
+                                        list.PriceS
+                                      }
+                                    </h5>
+                                  </div>
+                                  <div className="h_price_item c_width">
+                                    <h5>
+                                      <a
+                                        href="/SignUp"
+                                        className="h_price_btn"
+                                      >
+                                        Choose
+                                        Plan
+                                      </a>
+                                    </h5>
+                                  </div>
+                                </div>
+                              );
+                            }
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  </React.Fragment>
-                ))}
+                    </React.Fragment>
+                  )
+                )}
               </div>
-              <div className="tab-pane fade show" id="national1" role="tabpanel" aria-labelledby="national1-tab">
-                {this.state.National1.map((post) => (
-                  <React.Fragment key={post.id}>
-                    <p>{post.title}</p>
-                    <p>{post.titlePlus}</p>
-                    <div className="h_price_body">
-                      <div className="price_head">
-                        <div className="p_head">
-                          <h5>Categories</h5>
-                        </div>
-                        {/* <div className="p_head">
+              <div
+                className="tab-pane fade show"
+                id="national1"
+                role="tabpanel"
+                aria-labelledby="national1-tab"
+              >
+                {this.state.National1.map(
+                  (post) => (
+                    <React.Fragment key={post.id}>
+                      <p>{post.title}</p>
+                      {/* <p>{post.titlePlus}</p> */}
+                      <div className="h_price_body">
+                        <div className="price_head">
+                          <div className="p_head">
+                            <h5>Categories</h5>
+                          </div>
+                          {/* <div className="p_head">
                           <h5>Vcpus</h5>
                         </div>
                         <div className="p_head">
@@ -191,19 +280,30 @@ class HostingPlan extends Component {
                         <div className="p_head">
                           <h5>Transfer</h5>
                         </div> */}
-                        <div className="p_head">
-                          <h5>Price</h5>
+                          <div className="p_head">
+                            <h5>Price</h5>
+                          </div>
+                          <div className="p_head c_width"></div>
                         </div>
-                        <div className="p_head c_width"></div>
-                      </div>
-                      <div className="h_price_body">
-                        {post.priceList.map((list) => {
-                          return (
-                            <div className="h_p_list" key={list.id}>
-                              <div className="h_price_item Categories" data-title="Categories">
-                                <h5>{list.Categories}</h5>
-                              </div>
-                              {/* <div className="h_price_item" data-title="Vcpus">
+                        <div className="h_price_body">
+                          {post.priceList.map(
+                            (list) => {
+                              return (
+                                <div
+                                  className="h_p_list"
+                                  key={list.id}
+                                >
+                                  <div
+                                    className="h_price_item Categories"
+                                    data-title="Categories"
+                                  >
+                                    <h5>
+                                      {
+                                        list.Categories
+                                      }
+                                    </h5>
+                                  </div>
+                                  {/* <div className="h_price_item" data-title="Vcpus">
                                 <h5>{list.Vcpus}</h5>
                               </div>
                               <div className="h_price_item" data-title="Ssd disk">
@@ -212,37 +312,58 @@ class HostingPlan extends Component {
                               <div className="h_price_item" data-title="Transfer">
                                 <h5>{list.Transfer}</h5>
                               </div> */}
-                              <div className="h_price_item" data-title="Price">
-                                <h5>
-                                  <span>{list.Price}</span>
-                                  {list.PriceS}
-                                </h5>
-                              </div>
-                              <div className="h_price_item c_width">
-                                <h5>
-                                  <a href="/SignUp" className="h_price_btn">
-                                    Choose Plan
-                                  </a>
-                                </h5>
-                              </div>
-                            </div>
-                          );
-                        })}
+                                  <div
+                                    className="h_price_item"
+                                    data-title="Price"
+                                  >
+                                    <h5>
+                                      <span>
+                                        {
+                                          list.Price
+                                        }
+                                      </span>
+                                      {
+                                        list.PriceS
+                                      }
+                                    </h5>
+                                  </div>
+                                  <div className="h_price_item c_width">
+                                    <h5>
+                                      <a
+                                        href="/SignUp"
+                                        className="h_price_btn"
+                                      >
+                                        Choose
+                                        Plan
+                                      </a>
+                                    </h5>
+                                  </div>
+                                </div>
+                              );
+                            }
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  </React.Fragment>
-                ))}
+                    </React.Fragment>
+                  )
+                )}
               </div>
-              <div className="tab-pane fade" id="inter" role="tabpanel" aria-labelledby="inter-tab">
-                {this.state.International.map((post) => (
-                  <React.Fragment key={post.id}>
-                    <p>{post.title}</p>
-                    <div className="h_price_body">
-                      <div className="price_head">
-                        <div className="p_head">
-                          <h5>Categories</h5>
-                        </div>
-                        {/* <div className="p_head">
+              <div
+                className="tab-pane fade"
+                id="inter"
+                role="tabpanel"
+                aria-labelledby="inter-tab"
+              >
+                {this.state.International.map(
+                  (post) => (
+                    <React.Fragment key={post.id}>
+                      <p>{post.title}</p>
+                      <div className="h_price_body">
+                        <div className="price_head">
+                          <div className="p_head">
+                            <h5>Categories</h5>
+                          </div>
+                          {/* <div className="p_head">
                           <h5>Vcpus</h5>
                         </div>
                         <div className="p_head">
@@ -251,19 +372,30 @@ class HostingPlan extends Component {
                         <div className="p_head">
                           <h5>Transfer</h5>
                         </div> */}
-                        <div className="p_head">
-                          <h5>Price</h5>
+                          <div className="p_head">
+                            <h5>Price</h5>
+                          </div>
+                          <div className="p_head c_width"></div>
                         </div>
-                        <div className="p_head c_width"></div>
-                      </div>
-                      <div className="h_price_body">
-                        {post.priceList.map((list) => {
-                          return (
-                            <div className="h_p_list" key={list.id}>
-                              <div className="h_price_item Categories" data-title="Categories">
-                                <h5>{list.Categories}</h5>
-                              </div>
-                              {/* <div className="h_price_item" data-title="Vcpus">
+                        <div className="h_price_body">
+                          {post.priceList.map(
+                            (list) => {
+                              return (
+                                <div
+                                  className="h_p_list"
+                                  key={list.id}
+                                >
+                                  <div
+                                    className="h_price_item Categories"
+                                    data-title="Categories"
+                                  >
+                                    <h5>
+                                      {
+                                        list.Categories
+                                      }
+                                    </h5>
+                                  </div>
+                                  {/* <div className="h_price_item" data-title="Vcpus">
                                 <h5>{list.Vcpus}</h5>
                               </div>
                               <div className="h_price_item" data-title="Ssd disk">
@@ -272,26 +404,41 @@ class HostingPlan extends Component {
                               <div className="h_price_item" data-title="Transfer">
                                 <h5>{list.Transfer}</h5>
                               </div> */}
-                              <div className="h_price_item" data-title="Price">
-                                <h5>
-                                  <span>{list.Price}</span>
-                                  {list.PriceS}
-                                </h5>
-                              </div>
-                              <div className="h_price_item c_width">
-                                <h5>
-                                  <a href="/SignUp" className="h_price_btn">
-                                    Choose Plan
-                                  </a>
-                                </h5>
-                              </div>
-                            </div>
-                          );
-                        })}
+                                  <div
+                                    className="h_price_item"
+                                    data-title="Price"
+                                  >
+                                    <h5>
+                                      <span>
+                                        {
+                                          list.Price
+                                        }
+                                      </span>
+                                      {
+                                        list.PriceS
+                                      }
+                                    </h5>
+                                  </div>
+                                  <div className="h_price_item c_width">
+                                    <h5>
+                                      <a
+                                        href="/SignUp"
+                                        className="h_price_btn"
+                                      >
+                                        Choose
+                                        Plan
+                                      </a>
+                                    </h5>
+                                  </div>
+                                </div>
+                              );
+                            }
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  </React.Fragment>
-                ))}
+                    </React.Fragment>
+                  )
+                )}
               </div>
               {/* <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                 {this.state.General.map((post) => (
