@@ -20,6 +20,7 @@ const EventSponser = () => {
                 <div className="row">
                   <EventSponserLogo url=".#" image="iysa.png" />
                   <EventSponserLogo url=".#" image="i3l.jpg" />
+                  <EventSponserLogo url=".#" image="logo_undiksha.png" />
                   <EventSponserLogo url=".#" image="buca.png" />
                   {/* <EventSponserLogo url=".#" image="logo_02.png" /> */}
                 </div>
@@ -47,7 +48,6 @@ const EventSponser = () => {
                   <EventSponserLogo url=".#" image="undip.png" />
                   <EventSponserLogo url=".#" image="akt.png" />
                   <EventSponserLogo url=".#" image="ayrid.png" />
-                  <EventSponserLogo url=".#" image="logo_undiksha.png" />
                 </div>
               </div>
             </div>
