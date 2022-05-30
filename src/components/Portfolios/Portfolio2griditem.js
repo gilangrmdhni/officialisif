@@ -13,9 +13,9 @@ class Portfolio2griditem extends Component {
               <i className="ti-plus"></i>
             </a>
             <div className="portfolio-description leaf">
-              <Link to="/Pages/PortfolioSingle" className="portfolio-title">
+              <a href="https://drive.google.com/drive/folders/1g-dfsRAEqqLAVmeO3uIxtUyjE8C0UB_s?usp=sharing" className="portfolio-title">
                 <h3 className="f_500 f_size_20 f_p">{ptitle}</h3>
-              </Link>
+              </a>
               <div className="links">
                 <a href=".#">{tOne}</a>
                 <a href=".#">{tTwo}</a>
