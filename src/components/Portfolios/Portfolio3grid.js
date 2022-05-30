@@ -71,10 +71,10 @@ class Portfolio3grid extends Component {
               2020
             </div>
             <div
-              data-filter="2021"
-              className={`work_portfolio_item ${this.onActive('2021')}`}
+              data-filter="web"
+              className={`work_portfolio_item ${this.onActive('web')}`}
               onClick={() => {
-                this.onFilterChange('2021');
+                this.onFilterChange('web');
               }}
             >
               2021
@@ -161,42 +161,42 @@ class Portfolio3grid extends Component {
               ptitle="2020"
             />
             <Photo
-              colClass="col-lg-4 col-sm-6 2021"
+              colClass="col-lg-4 col-sm-6 web"
               pImg="3-columns/2021/1.jpg"
               ptitle="2021"
             />
             <Photo
-              colClass="col-lg-4 col-sm-6 2021"
+              colClass="col-lg-4 col-sm-6 web"
               pImg="3-columns/2021/2.jpg"
               ptitle="2021"
             />
             <Photo
-              colClass="col-lg-4 col-sm-6 2021"
+              colClass="col-lg-4 col-sm-6 web"
               pImg="3-columns/2021/3.jpg"
               ptitle="2021"
             />
             <Photo
-              colClass="col-lg-4 col-sm-6 2021"
+              colClass="col-lg-4 col-sm-6 web"
               pImg="3-columns/2021/4.jpg"
               ptitle="2021"
             />
             <Photo
-              colClass="col-lg-4 col-sm-6 2021"
+              colClass="col-lg-4 col-sm-6 web"
               pImg="3-columns/2021/5.jpg"
               ptitle="2021"
             />
             <Photo
-              colClass="col-lg-4 col-sm-6 2021"
+              colClass="col-lg-4 col-sm-6 web"
               pImg="3-columns/2021/6.jpg"
               ptitle="2021"
             />
             <Photo
-              colClass="col-lg-4 col-sm-6 2021"
+              colClass="col-lg-4 col-sm-6 web"
               pImg="3-columns/2021/7.jpg"
               ptitle="2021"
             />
             <Photo
-              colClass="col-lg-4 col-sm-6 2021"
+              colClass="col-lg-4 col-sm-6 web"
               pImg="3-columns/2021/8.jpg"
               ptitle="2021"
             />
