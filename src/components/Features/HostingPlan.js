@@ -9,7 +9,7 @@ class HostingPlan extends Component {
         {
           id: 1,
           title:
-            'Shipping medals, 1 medal / team and certificate for each person in the team.',
+            'Shipping medals.',
           titlePlus:
             'International Participant Only Registration Fee & Students (Elementary,Secondary,University) (each participant will get only e-certificate).',
           priceList: [
@@ -17,9 +17,6 @@ class HostingPlan extends Component {
               id: 1,
               Categories:
                 'Indonesian Participant',
-              //   Vcpus: '1 vCPU',
-              //   Ssd: '125 GB',
-              //   Transfer: '1 TB',
               Price: 'Rp. 850.000',
               PriceS: '/team',
             },
@@ -27,9 +24,6 @@ class HostingPlan extends Component {
               id: 2,
               Categories:
                 'International Participant',
-              //   Vcpus: '2 vCPU',
-              //   Ssd: '100 GB',
-              //   Transfer: '2 TB',
               Price: '$50 USD',
               PriceS: '/team',
             },
@@ -40,7 +34,7 @@ class HostingPlan extends Component {
         {
           id: 2,
           title:
-            'T-Shirt for 3 people, Booth, tables and chairs, Lunch for 3 people x 1 day (at the time of judging) & snack for 3 people x 2 days, 1 medal / team and certificate for each person on the team.',
+            'T-Shirt for 3 people, Booth, tables and chairs, Lunch for 3 people x 1 day (at the time of judging) & snack for 3 people x 2 days.',
           titlePlus:
             'Offline can get (fee registration, booth, medals and certificate) and Free access Rumah Riset Application for 6 months, and consultation with a mentor for 1 month ',
           priceList: [
@@ -48,9 +42,6 @@ class HostingPlan extends Component {
               id: 1,
               Categories:
                 'Indonesian Participant',
-              //   Vcpus: '1 vCPU',
-              //   Ssd: '125 GB',
-              //   Transfer: '1 TB',
               Price: 'Rp. 2.500.000',
               PriceS: '/Team',
             },
@@ -64,9 +55,6 @@ class HostingPlan extends Component {
               id: 3,
               Categories:
                 'International Participant',
-              //   Vcpus: '2 vCPU',
-              //   Ssd: '100 GB',
-              //   Transfer: '2 TB',
               Price: '$300 USD',
               PriceS: '/Team',
             },
@@ -83,21 +71,9 @@ class HostingPlan extends Component {
               id: 1,
               Categories:
                 'Full Pack International',
-              //   Vcpus: '1 vCPU',
-              //   Ssd: '125 GB',
-              //   Transfer: '1 TB',
               Price: '$500 USD',
               PriceS: '/Person',
             },
-            // {
-            //   id: 2,
-            //   Categories: 'Offline',
-            //   //   Vcpus: '2 vCPU',
-            //   //   Ssd: '100 GB',
-            //   //   Transfer: '2 TB',
-            //   Price: '$300 USD',
-            //   PriceS: '/Team',
-            // },
           ],
         },
       ],
@@ -237,7 +213,7 @@ class HostingPlan extends Component {
                                   <div className="h_price_item c_width">
                                     <h5>
                                       <a
-                                        href="/SignUp"
+                                        href="https://forms.gle/fBsiwVdX8Lc6MY618"
                                         className="h_price_btn"
                                       >
                                         Choose
@@ -330,7 +306,7 @@ class HostingPlan extends Component {
                                   <div className="h_price_item c_width">
                                     <h5>
                                       <a
-                                        href="/SignUp"
+                                        href="https://forms.gle/fBsiwVdX8Lc6MY618"
                                         className="h_price_btn"
                                       >
                                         Choose
@@ -422,7 +398,7 @@ class HostingPlan extends Component {
                                   <div className="h_price_item c_width">
                                     <h5>
                                       <a
-                                        href="/SignUp"
+                                        href="https://forms.gle/fBsiwVdX8Lc6MY618"
                                         className="h_price_btn"
                                       >
                                         Choose
