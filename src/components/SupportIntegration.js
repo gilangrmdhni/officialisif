@@ -47,7 +47,7 @@ class SupportIntegration extends Component {
 
   render() {
     return (
-      <section className="support_integration_area">
+      <section className="support_integration_area" id="categories">
         <div className="container">
           <Sectitle
             sClass="sec_title text-center mb_70"

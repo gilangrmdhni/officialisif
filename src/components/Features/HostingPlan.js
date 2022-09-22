@@ -9,7 +9,7 @@ class HostingPlan extends Component {
         {
           id: 1,
           title:
-            'Shipping medals.',
+            'Registration Fee',
           titlePlus:
             'International Participant Only Registration Fee & Students (Elementary,Secondary,University) (each participant will get only e-certificate).',
           priceList: [

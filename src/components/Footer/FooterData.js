@@ -19,8 +19,8 @@ const FooterData = {
         },
         {
           id: 2,
-          url: '/Categori',
-          text: 'Categoriate',
+          url: '/#categories',
+          text: 'Categories',
         },
         {
           id: 3,
