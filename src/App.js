@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch } from 'react-router-dom';
 /*------ Pages-----*/
 import { Home } from './Pages/Home';
 import DigitalMarketing from './Pages/Digital-marketing';
-// import PaymentProcessing from './Pages/Payment-processing';
+import PaymentProcessing from './Pages/Payment-processing';
 import HRManagement from './Pages/HR-Management';
 import Startup from './Pages/Startup';
 import HomeCRM from './Pages/Home-CRM';
@@ -30,7 +30,7 @@ import HomeCloud from './Pages/Home-cloud';
 import HomeTracking from './Pages/Home-tracking';
 import Events from './Pages/Events';
 import HomeChat from './Pages/Home-chat';
-// import Price from './Pages/Price';
+import Price from './Pages/Price';
 import Faq from './Pages/Faq';
 import ServiceDetails from './Pages/ServiceDetails';
 import SignIn from './Pages/SignIn';
