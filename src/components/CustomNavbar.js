@@ -277,7 +277,7 @@ class CustomNavbar extends Component {
                       </li> */}
                       <li className="nav-item">
                         <a
-                          href="https://drive.google.com/file/d/1ilWuOn5-sOq2yY7S-vD5WyEc53S1RS4N/view?usp=sharing"
+                          href=""
                           title="Guide Book"
                           className="nav-link"
                         >
