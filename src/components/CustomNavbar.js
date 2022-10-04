@@ -437,12 +437,12 @@ class CustomNavbar extends Component {
                     </a>
                   </li> */}
                 </ul>
-                <a
+                {/* <a
                   className={`btn_get btn_hover ${hbtnClass}`}
                   href="https://forms.gle/fBsiwVdX8Lc6MY618"
                 >
                   ISIF Registration
-                </a>
+                </a> */}
               </div>
             </div>
           </nav>

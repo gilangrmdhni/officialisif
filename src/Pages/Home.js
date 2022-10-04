@@ -18,7 +18,7 @@ export const Home = () => (
     <EventSponser />
     <Video />
     <SupportIntegration />
-    <PriceTable />
+    {/* <PriceTable /> */}
     <Subscribe FooterData={FooterData} />
     <Footer FooterData={FooterData} />
   </div>
