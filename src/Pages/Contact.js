@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="body_wrapper">
       <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto" />
-      <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/call_me.jpg" Ptitle="Contac Us" Pdescription="Please feel free to contact us if you need other assistance" />
+      <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/call_me.jpg" Ptitle="Contact Us" Pdescription="Please feel free to contact us if you need other assistance" />
       {/* <Contacts /> */}
       {/* <CoreFeatures /> */}
       <MarketingGetstarted />
