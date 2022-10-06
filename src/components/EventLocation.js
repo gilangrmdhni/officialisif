@@ -11,7 +11,7 @@ const EventLocation = () => {
             <p>
             Jl. Kemang No. 63 RT 03 RW 06
               <br />
-            kp. kekupu, Jawa Barat 16519, Indonesia.
+            Pasir Putih, Depok, Jawa Barat 16519, Indonesia.
             </p>
           </div>
           <div className="contact_info_item">
