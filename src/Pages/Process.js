@@ -8,7 +8,7 @@ const Process = () => {
   return (
     <div className="body_wrapper">
       <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto" />
-      <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/bg.jpg" Ptitle="Process Registration" Pdescription="Please read the rule registration" />
+      <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/bg.jpg" Ptitle="Registration Process " Pdescription="Please read the rule registration" />
       <section className="process_area bg_color sec_pad">
         <div className="container">
           <div className="features_info">
@@ -39,7 +39,7 @@ const Process = () => {
               iImg="icon_04.png"
               ftitle="Submit Requierements"
               flink="https://wa.me/6281770914129"
-              descriptions="You must be sumbit the requirements for join in our event."
+              descriptions="You must be submit the requirements for join in our event."
             />
             <Featuresitems
               rowClass="row flex-row-reverse"
