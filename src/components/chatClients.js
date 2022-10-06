@@ -31,9 +31,9 @@ const chatClients = () => {
             improvements in life. Because, we believe that every student
             has potential which can be developed.
             </p>
-            <a href="https://bit.ly/REGISTRATION_ISIF_2022" className="chat_btn btn_hover">
+            {/* <a href="https://bit.ly/REGISTRATION_ISIF_2022" className="chat_btn btn_hover">
               Get Started
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
