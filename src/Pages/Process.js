@@ -13,14 +13,14 @@ const Process = () => {
         <div className="container">
           <div className="features_info">
             <img className="dot_img" src={require('../img/home4/divider.png')} alt="" />
-            <Featuresitems rowClass="row flex-row-reverse" aClass="pr_70 pl_70" fimage="process_1.png" iImg="icon01.png" ftitle="Registration" flink="/SignUp" descriptions="Click button Registration" />
+            <Featuresitems rowClass="row flex-row-reverse" aClass="pr_70 pl_70" fimage="process_1.png" iImg="icon01.png" ftitle="Registration" flink="https://bit.ly/REGISTRATION_ISIF_2022" descriptions="Click button Registration" />
             <Featuresitems
               rowClass="row"
               aClass="pl_100"
               fimage="process_2.png"
               iImg="icon02.png"
               ftitle="Fill the Registration Form"
-              flink="/SignUp"
+              flink="https://bit.ly/REGISTRATION_ISIF_2022"
               descriptions="Fill your data like your lead team, your school, project title, shiping payment and more."
             />
             <Featuresitems
