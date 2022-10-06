@@ -7,7 +7,7 @@ import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer/Footer';
 // import ServiceData from '../components/Service/ServiceData';
 import FooterData from '../components/Footer/FooterData';
-import GuideBook from '../components/Service/SupportItem';
+// import GuideBook from '../components/Service/SupportItem';
 import ChatClients from '../components/chatClients';
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
       <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/isif.jpg" Ptitle="About Us" Pdescription="Read Our Documents" />
       {/* <Sservice /> */}
       <ChatClients />
-      <GuideBook />
+      {/* <GuideBook /> */}
       {/* <AgencyAbout ServiceData={ServiceData} />
       <Partner pClass="partner_logo_area_five bg_color" /> */}
       <Footer FooterData={FooterData} />
