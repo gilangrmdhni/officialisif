@@ -155,12 +155,13 @@ const ServiceData = {
             date: 'March 1, 2019'
         }
     ],
+    // edit this line to generate new bloglist 
     Blist: [
         {
             id: '01',
             image: 'blog-grid/blog_list1.jpg',
             btitle: 'Why I say old chap that is, spiffing jolly good.',
-            bdescription: 'Cheeky bugger amongst bugger knees up get stuffed mate what a load of rubbish starkers dropped a clanger say boot, blow off cobblers butty mufty spiffing Eaton the full monty the BBC a, posh chap.',
+            bdescription: 'Indonesian Young Scientist Association continues on collaboration with Indonesia International Institute for Life Sciences for holding an international competition called International Science and Invention Fair',
             pdate: '10',
             Month: 'March'
         },
