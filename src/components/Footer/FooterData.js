@@ -22,16 +22,6 @@ const FooterData = {
           url: '/#categories',
           text: 'Categories',
         },
-        {
-          id: 3,
-          url: '/Process',
-          text: 'Rules Registration',
-        },
-        {
-          id: 4,
-          url: '/Events',
-          text: 'Events',
-        },
       ],
     },
     {
