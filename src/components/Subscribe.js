@@ -117,7 +117,7 @@ class Subscribe extends Component {
             </div>
           </div>
         </section> */}
-        <section className="seo_call_to_action_area sec_pad">
+        {/* <section className="seo_call_to_action_area sec_pad">
           <div className="container">
             <div className="seo_call_action_text">
               <h2>
@@ -129,7 +129,7 @@ class Subscribe extends Component {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
       </React.Fragment>
     );
   }
