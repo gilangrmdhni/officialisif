@@ -41,7 +41,7 @@ const FooterData = {
         {
           id: 3,
           url: '/Process',
-          text: 'Rules Registration',
+          text: 'Rules of Registration',
         },
         {
           id: 4,
