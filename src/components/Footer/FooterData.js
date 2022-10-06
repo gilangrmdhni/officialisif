@@ -10,7 +10,7 @@ const FooterData = {
   AboutWidget: [
     {
       id: 1,
-      title: 'Usefull Links',
+      title: 'Useful Links',
       menuItems: [
         {
           id: 1,
