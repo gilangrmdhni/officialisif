@@ -15,8 +15,7 @@ class Bloglistitem extends Component{
                                     </div>
                                     <div className="entry_post_info">
                                         <a href=".#"> By: Admin</a>
-                                        <a href=".#">2 Comments</a>
-                                        <a href=".#">SaasLand</a>
+                                        <a href="https://github.com/redheet">Redheet</a>
                                     </div>
                                     <a href=".#">
                                         <h5 className="f_p f_size_20 f_500 t_color mb_20">{post.btitle}</h5>
