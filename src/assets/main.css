@@ -25166,6 +25166,7 @@ a .h_head:hover {
 }
 
 .chat_get_started_area {
+  /* background: url('../img/home-chat/get_started_bg.png'); */
   background: url("/") no-repeat scroll center bottom;
   height: 712px;
   padding-top: 120px;
