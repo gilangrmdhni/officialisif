@@ -165,30 +165,30 @@ const ServiceData = {
             pdate: '10',
             Month: 'March'
         },
-        {
-            id: '02',
-            image: 'blog-grid/blog_list2.jpg',
-            btitle: 'Why I say old chap that is, spiffing jolly good.',
-            bdescription: 'Cheeky bugger amongst bugger knees up get stuffed mate what a load of rubbish starkers dropped a clanger say boot, blow off cobblers butty mufty spiffing Eaton the full monty the BBC a, posh chap.',
-            pdate: '10',
-            Month: 'June'
-        },
-        {
-            id: '03',
-            image: 'blog-grid/blog_list3.jpg',
-            btitle: 'Why I say old chap that is, spiffing jolly good.',
-            bdescription: 'Cheeky bugger amongst bugger knees up get stuffed mate what a load of rubbish starkers dropped a clanger say boot, blow off cobblers butty mufty spiffing Eaton the full monty the BBC a, posh chap.',
-            pdate: '10',
-            Month: 'March'
-        },
-        {
-            id: '04',
-            image: 'blog-grid/blog_list4.jpg',
-            btitle: 'Bloke cracking goal the full monty get stuffed mate posh.',
-            bdescription: 'Cheeky bugger amongst bugger knees up get stuffed mate what a load of rubbish starkers dropped a clanger say boot, blow off cobblers butty mufty spiffing Eaton the full monty the BBC a, posh chap.',
-            pdate: '01',
-            Month: 'July'
-        },
+        // {
+        //     id: '02',
+        //     image: 'blog-grid/blog_list2.jpg',
+        //     btitle: 'Why I say old chap that is, spiffing jolly good.',
+        //     bdescription: 'Cheeky bugger amongst bugger knees up get stuffed mate what a load of rubbish starkers dropped a clanger say boot, blow off cobblers butty mufty spiffing Eaton the full monty the BBC a, posh chap.',
+        //     pdate: '10',
+        //     Month: 'June'
+        // },
+        // {
+        //     id: '03',
+        //     image: 'blog-grid/blog_list3.jpg',
+        //     btitle: 'Why I say old chap that is, spiffing jolly good.',
+        //     bdescription: 'Cheeky bugger amongst bugger knees up get stuffed mate what a load of rubbish starkers dropped a clanger say boot, blow off cobblers butty mufty spiffing Eaton the full monty the BBC a, posh chap.',
+        //     pdate: '10',
+        //     Month: 'March'
+        // },
+        // {
+        //     id: '04',
+        //     image: 'blog-grid/blog_list4.jpg',
+        //     btitle: 'Bloke cracking goal the full monty get stuffed mate posh.',
+        //     bdescription: 'Cheeky bugger amongst bugger knees up get stuffed mate what a load of rubbish starkers dropped a clanger say boot, blow off cobblers butty mufty spiffing Eaton the full monty the BBC a, posh chap.',
+        //     pdate: '01',
+        //     Month: 'July'
+        // },
     ],
     work: [
         {
