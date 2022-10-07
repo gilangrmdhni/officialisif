@@ -216,7 +216,7 @@ class CustomNavbar extends Component {
 
                   <li className="dropdown submenu nav-item">
                     <Link to="./" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                      Service
+                      Pages
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
                       <li className="nav-item">
