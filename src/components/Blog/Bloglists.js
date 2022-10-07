@@ -12,7 +12,7 @@ const Bloglists =()=>{
                         <ul className="list-unstyled page-numbers shop_page_number text-left mt_30">
                             <li><span aria-current="page" className="page-numbers current">1</span></li>
                             <li><a className="page-numbers" href=".#">2</a></li>
-                            <li><a className="next page-numbers" href=".#"><i className="ti-arrow-right"></i></a></li>
+                            {/* <li><a className="next page-numbers" href=".#"><i className="ti-arrow-right"></i></a></li> */}
                         </ul>
                     </div>
                     {/* <div className="col-lg-4">
