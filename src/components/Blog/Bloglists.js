@@ -1,7 +1,7 @@
 import React from 'react';
 import Blogrightsidebar from './Blogrightsidebar';
 import Bloglistitem from './Bloglistitem';
-import ServiceData from '../Service/ServiceData';
+// import ServiceData from '../Service/ServiceData';
 const Bloglists =()=>{
     return(
         <section className="blog_area sec_pad">
@@ -15,9 +15,9 @@ const Bloglists =()=>{
                             <li><a className="next page-numbers" href=".#"><i className="ti-arrow-right"></i></a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-4">
+                    {/* <div className="col-lg-4">
                         <Blogrightsidebar ServiceData={ServiceData}/>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
