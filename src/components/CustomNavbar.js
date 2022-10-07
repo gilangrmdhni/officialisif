@@ -245,7 +245,7 @@ class CustomNavbar extends Component {
                       About
                     </Link>
                   </li> */}
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       to="/Process"
                       className="nav-link"
@@ -253,7 +253,7 @@ class CustomNavbar extends Component {
                     >
                       Process
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="dropdown submenu nav-item">
                     <Link
                       to="./"
