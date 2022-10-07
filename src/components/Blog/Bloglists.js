@@ -1,7 +1,7 @@
 import React from 'react';
-import Blogrightsidebar from './Blogrightsidebar';
+// import Blogrightsidebar from './Blogrightsidebar';
 import Bloglistitem from './Bloglistitem';
-// import ServiceData from '../Service/ServiceData';
+import ServiceData from '../Service/ServiceData';
 const Bloglists =()=>{
     return(
         <section className="blog_area sec_pad">
