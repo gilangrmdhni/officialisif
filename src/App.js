@@ -20,7 +20,7 @@ import BlogSingle from './Pages/BlogSingle';
 import Contact from './Pages/Contact';
 import ScrollToTopRoute from './ScrollToTopRoute';
 // import Landing from './Pages/Landing';
-// import homesupport from './Pages/home-support';
+// import homesupport from './Pages/home-support'; 
 // import homeERP from './Pages/Home-ERP';
 // import homeHosting from './Pages/HomeHosting';
 // import homeSecurity from './Pages/HomeSecurity';
@@ -37,6 +37,7 @@ import ScrollToTopRoute from './ScrollToTopRoute';
 // import SignUp from './Pages/SignUp';
 // import BlogGridPage from './Pages/BlogGridPage';
 import NotFound from './Pages/404';
+import Iysacollab from './Pages/Iysa-collaboration';
 
 class App extends Component {
   componentDidMount() {
@@ -70,6 +71,7 @@ class App extends Component {
             component={PortfolioSingle}
           />
           <ScrollToTopRoute path="/Bloglist" component={Bloglist} />
+          <ScrollToTopRoute path="/Iysacollaboration" component={Iysacollab} />
           <ScrollToTopRoute path="/BlogSingle" component={BlogSingle} />
           {/* <ScrollToTopRoute path="/BlogGridPage" component={BlogGridPage} /> */}
           <ScrollToTopRoute path="/Contact" component={Contact} />
