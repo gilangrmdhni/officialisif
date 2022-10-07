@@ -214,24 +214,29 @@ class CustomNavbar extends Component {
                     </div> */}
                   </li>
 
-                  {/* <li className="dropdown submenu nav-item">
+                  <li className="dropdown submenu nav-item">
                     <Link to="./" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                       Service
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
                       <li className="nav-item">
-                        <NavLink exact title="Service" className="nav-link" to="/Service">
-                          Service
+                        <NavLink exact title="Service" className="nav-link" to="/About">
+                          About
                         </NavLink>
                       </li>
                       <li className="nav-item">
-                        <NavLink exact title="Service Details" className="nav-link" to="/ServiceDetails">
-                          Service Details
+                        <NavLink exact title="Service Details" className="nav-link" to="/Process">
+                          Process
+                        </NavLink>
+                      </li>
+                      <li className="nav-item">
+                        <NavLink exact title="Service Details" className="nav-link" to="/bloglist">
+                          News
                         </NavLink>
                       </li>
                     </ul>
-                  </li> */}
-                  <li className="nav-item">
+                  </li>
+                  {/* <li className="nav-item">
                     <Link
                       to="/About"
                       className="nav-link"
@@ -239,7 +244,7 @@ class CustomNavbar extends Component {
                     >
                       About
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link
                       to="/Process"
