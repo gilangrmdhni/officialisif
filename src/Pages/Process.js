@@ -48,7 +48,7 @@ const Process = () => {
               iImg="icon_05.png"
               ftitle="Project Presentation"
               flink="/Contact"
-              descriptions="Presentattion must be english langueges, if you need more please contact our team admin thank"
+              descriptions="Presentattion must be english langueges, feel free to contacting our team admin if you need more help."
             />
             <div className="dot middle_dot">
               <span className="dot1"></span>
