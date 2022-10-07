@@ -159,8 +159,8 @@ const ServiceData = {
     Blist: [
         {
             id: '01',
-            image: 'blog-grid/blog_list1.jpg',
-            btitle: 'Why I say old chap that is, spiffing jolly good.',
+            image: 'blog-grid/isif2021.jpg',
+            btitle: 'IYSA collaboration with Indonesia International Institute for Life Sciences',
             bdescription: 'Indonesian Young Scientist Association continues on collaboration with Indonesia International Institute for Life Sciences for holding an international competition called International Science and Invention Fair',
             pdate: '10',
             Month: 'March'
