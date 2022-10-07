@@ -17,11 +17,11 @@ class Bloglistitem extends Component{
                                         <a href=".#"> By: Admin</a>
                                         <a href="https://github.com/redheet">Redheet</a>
                                     </div>
-                                    <a href=".#">
+                                    <a href="/iysacollaboration">
                                         <h5 className="f_p f_size_20 f_500 t_color mb_20">{post.btitle}</h5>
                                     </a>
                                     <p className="f_400 mb_20">{post.bdescription}</p>
-                                    <a href=".#" className="learn_btn_two">Read More <i className="ti-arrow-right"></i></a>
+                                    <a href="/iysacollaboration" className="learn_btn_two">Read More <i className="ti-arrow-right"></i></a>
                                 </div>
                             </div>
                         )
