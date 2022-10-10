@@ -3,13 +3,13 @@ import React from 'react';
 const chatClients = () => {
   return (
     <div>
-      <section className="chat_get_started_area" style="margin-bottom: 250px">
+      <section className="chat_get_started_area">
         <div className="container">
           <div className="chat_get_started_content text-center">
             <h2 className="wow fadeInUp" data-wow-delay="0.2s">
               Background
             </h2>
-            <p>
+            <p  style="margin-bottom: 250px">
             By looking at the development and knowledge of children
             today about science, invention and innovation, especially in
             the field of science, it requires us to know the extent of the
