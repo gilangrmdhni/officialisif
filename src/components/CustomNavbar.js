@@ -270,16 +270,7 @@ class CustomNavbar extends Component {
                       role="menu"
                       className=" dropdown-menu"
                     >
-                      {/* <li className="nav-item">
-                        <NavLink exact title="About" className="nav-link" to="/About">
-                          About
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink exact title="Process" className="nav-link" to="/Process">
-                          Process
-                        </NavLink>
-                      </li> */}
+
                       <li className="nav-item">
                         <a
                           href="https://drive.google.com/file/d/1ilWuOn5-sOq2yY7S-vD5WyEc53S1RS4N/view?usp=sharing"
@@ -298,31 +289,7 @@ class CustomNavbar extends Component {
                           Supervisor
                         </a>
                       </li> */}
-                      {/* <li className="nav-item">
-                        <NavLink exact title="Team" className="nav-link" to="/Team">
-                          Team
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink exact title="Price" className="nav-link" to="/Price">
-                          Price
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink exact title="Faq" className="nav-link" to="/Faq">
-                          Faq
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink exact title="SignIn" className="nav-link" to="/SignIn">
-                          Sign In
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink exact title="SignUp" className="nav-link" to="/SignUp">
-                          Sign Up
-                        </NavLink>
-                      </li> */}
+                      
                     </ul>
                   </li>
                   <li className="dropdown submenu nav-item">
