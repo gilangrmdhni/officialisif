@@ -9,6 +9,7 @@ import EventSponser from '../components/EventSponser';
 import Footer from '../components/Footer/Footer';
 import FooterData from '../components/Footer/FooterData';
 import PriceTable from '../components/Features/HostingPlan';
+import News from '../components/News';
 import Video from '../components/Video';
 
 export const Home = () => (
@@ -19,6 +20,7 @@ export const Home = () => (
     <Video />
     <SupportIntegration />
     {/* <PriceTable /> */}
+    <News />
     <Subscribe FooterData={FooterData} />
     <Footer FooterData={FooterData} />
   </div>
