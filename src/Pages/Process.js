@@ -15,7 +15,7 @@ const Process = () => {
             <img className="dot_img" src={require('../img/home4/divider.png')} alt="" />
             <h2>How To Registration?</h2>
             <div className="video_content">
-              <div className="video_info">
+              <div className="video">
                 <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=DCw862udnZo">
                   <i className="arrow_triangle-right"></i>
                 </a>
