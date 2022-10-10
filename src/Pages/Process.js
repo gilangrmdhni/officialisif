@@ -8,15 +8,15 @@ const Process = () => {
   return (
     <div className="body_wrapper">
       <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto" />
-      <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/bg.jpg" Ptitle="Registration Process " Pdescription="Please read the rule registration" />
+      <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/bg.jpg" Ptitle="Registration Process " Pdescription="Please watch the rule registration" />
       <section className="process_area bg_color sec_pad">
         <div className="container">
           <div className="features_info">
             <img className="dot_img" src={require('../img/home4/divider.png')} alt="" />
-            <Featuresitems rowClass="row flex-row-reverse" aClass="pr_70 pl_70" fimage="process_1.png" iImg="icon01.png" ftitle="Registration" flink="https://bit.ly/REGISTRATION_ISIF_2022" descriptions="Click button Registration" />
+            <Featuresitems rowClass="row flex-row-reverse" aClass="popup-youtube video_icon" fimage="process_1.png" iImg="icon01.png" ftitle="How to register?" flink="https://www.youtube.com/watch?v=YHQVYtiiCC0" />
             <Featuresitems
               rowClass="row"
-              aClass="pl_100"
+              aClass="popup-youtube video_icon"
               fimage="process_2.png"
               iImg="icon02.png"
               ftitle="Fill the Registration Form"
