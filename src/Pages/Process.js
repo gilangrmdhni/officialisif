@@ -13,10 +13,10 @@ const Process = () => {
         <div className="container">
           <div className="features_info">
             <img className="dot_img" src={require('../img/home4/divider.png')} alt="" />
-            <Featuresitems rowClass="row flex-row-reverse" aClass="popup-youtube video_icon" fimage="process_1.png" iImg="icon01.png" ftitle="How to register?" flink="https://www.youtube.com/watch?v=YHQVYtiiCC0" />
+            <Featuresitems />
             <Featuresitems
               rowClass="row"
-              aClass="popup-youtube video_icon"
+              aClass="pl_100"
               fimage="process_2.png"
               iImg="icon02.png"
               ftitle="Fill the Registration Form"
