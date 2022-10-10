@@ -3,7 +3,6 @@ import React from 'react';
 const chatClients = () => {
   return (
     <div>
-      <main>
       <section className="chat_get_started_area" style="margin-bottom: 250px">
         <div className="container">
           <div className="chat_get_started_content text-center">
@@ -38,7 +37,6 @@ const chatClients = () => {
           </div>
         </div>
       </section>
-      </main>
     </div>
   );
 };
