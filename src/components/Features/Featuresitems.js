@@ -27,7 +27,7 @@ class Featuresitems extends Component {
               </a>
             </Reveal>
           </div>
-        </div>
+        </div> 
       </div>
     );
   }
