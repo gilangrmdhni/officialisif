@@ -17,7 +17,8 @@ const Process = () => {
               rowClass="row flex-row-reverse"
               aClass="pr_70 pl_70"
               fimage="process_1.png"
-              ftitle="How To Registration?"
+              iImg="icon01.png"
+              ftitle="Registration"
               flink="https://bit.ly/REGISTRATION_ISIF_2022"
               descriptions="Click button Registration"
             />
@@ -30,6 +31,14 @@ const Process = () => {
               flink="https://bit.ly/REGISTRATION_ISIF_2022"
               descriptions="Fill your data like your lead team, your school, project title, shiping payment and more."
             />
+            <div className="video_content">
+              <div className="video_info">
+                <div className="ovarlay_color"></div>
+                <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=YHQVYtiiCC0">
+                  <i className="arrow_triangle-right"></i>
+                </a>
+              </div>
+            </div>
             <Featuresitems
               rowClass="row flex-row-reverse"
               aClass="pr_70 pl_70"
