@@ -3,7 +3,7 @@ import React from 'react';
 const chatClients = () => {
   return (
 
-      <section className="chat_get_started_area">
+      
         <div className="container">
           <div className="chat_get_started_content text-center">
             <h2 className="wow fadeInUp" data-wow-delay="0.2s">
@@ -38,7 +38,7 @@ const chatClients = () => {
             </a> */}
           </div>
         </div>
-      </section>
+ 
   
   );
 };
