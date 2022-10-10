@@ -9,7 +9,7 @@ const chatClients = () => {
             <h2 className="wow fadeInUp" data-wow-delay="0.2s">
               Background
             </h2>
-            <p  style="margin-bottom: 250px">
+            <p>
             By looking at the development and knowledge of children
             today about science, invention and innovation, especially in
             the field of science, it requires us to know the extent of the
