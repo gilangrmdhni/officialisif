@@ -10,6 +10,7 @@ const chatClients = () => {
               Background
             </h2>
             <p>
+              
             By looking at the development and knowledge of children
             today about science, invention and innovation, especially in
             the field of science, it requires us to know the extent of the
@@ -30,6 +31,7 @@ const chatClients = () => {
             soul-building competition in themselves. We do this to create
             improvements in life. Because, we believe that every student
             has potential which can be developed.
+
             </p>
             {/* <a href="https://bit.ly/REGISTRATION_ISIF_2022" className="chat_btn btn_hover">
               Get Started

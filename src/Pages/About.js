@@ -24,9 +24,7 @@ const About = () => {
       <Partner pClass="partner_logo_area_five bg_color" /> */}
     
     </div>
-    <div>
-    <Footer FooterData={FooterData} />
-    </div>
+
     </>
   );
 };
