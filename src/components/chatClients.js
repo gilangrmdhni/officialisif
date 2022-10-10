@@ -4,7 +4,7 @@ const chatClients = () => {
   return (
     <div>
       <main>
-      <section className="chat_get_started_area" style="margin-bottom: 200px">
+      <section className="chat_get_started_area" style="margin-bottom: 250px">
         <div className="container">
           <div className="chat_get_started_content text-center">
             <h2 className="wow fadeInUp" data-wow-delay="0.2s">
