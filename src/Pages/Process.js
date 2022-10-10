@@ -15,10 +15,9 @@ const Process = () => {
             <img className="dot_img" src={require('../img/home4/divider.png')} alt="" />
             <h2>How To Registration?</h2>
             <div className="video_content">
-              <div className="video_info">
-                <div className="video">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/DCw862udnZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+          
+              <div className="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DCw862udnZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <Featuresitems
