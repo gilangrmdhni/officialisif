@@ -18,6 +18,8 @@ const Process = () => {
               aClass="pr_70 pl_70"
               fimage="process_1.png"
               ftitle="How To Registration?"
+              flink="https://bit.ly/REGISTRATION_ISIF_2022"
+              descriptions="Click button Registration"
             />
             <div className="video_content">
               <div className="video_info">
@@ -35,6 +37,15 @@ const Process = () => {
               ftitle="Fill the Registration Form"
               flink="https://bit.ly/REGISTRATION_ISIF_2022"
               descriptions="Fill your data like your lead team, your school, project title, shiping payment and more."
+            />
+            <Featuresitems
+              rowClass="row flex-row-reverse"
+              aClass="pr_70 pl_70"
+              fimage="process_3.png"
+              iImg="icon3.png"
+              ftitle="Receive LoA and Invoice"
+              flink="mailto:isifofficial.iysa@gmail.com"
+              descriptions="We send LoA and Invoice to your email, if you can't find email LoA and Invoice please check in the spam, or contact our team."
             />
             <div className="dot middle_dot">
               <span className="dot1"></span>
