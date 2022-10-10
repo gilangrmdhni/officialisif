@@ -16,7 +16,6 @@ const Process = () => {
             <Featuresitems
               rowClass="row flex-row-reverse"
               aClass="pr_70 pl_70"
-              fimage="process_1.png"
               iImg="icon01.png"
               ftitle="Registration"
               flink="https://bit.ly/REGISTRATION_ISIF_2022"
