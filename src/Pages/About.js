@@ -6,7 +6,7 @@ import Breadcrumb from '../components/Breadcrumb';
 // import Partner from '../components/Partner';
 import Footer from '../components/Footer/Footer';
 // import ServiceData from '../components/Service/ServiceData';
-import FooterData from '../components/Footer/FooterData';
+// import FooterData from '../components/Footer/FooterData';
 // import GuideBook from '../components/Service/SupportItem';
 import ChatClients from '../components/chatClients';
 
