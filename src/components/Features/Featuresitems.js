@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal';
 class Featuresitems extends Component {
   render() {
-    var { rowClass, fimage, iImg, ftitle, descriptions, aClass, flink } = this.props;
+    var { rowClass, fimage, iImg, aClass, flink } = this.props;
     return (
       <div className={`agency_featured_item ${rowClass} `}>
         <div className="col-lg-6">
@@ -20,8 +20,6 @@ class Featuresitems extends Component {
                 <span className="dot2"></span>
               </div>
               <img className="number" src={require('../../img/home4/' + iImg)} alt="" />
-              <h3>{ftitle}</h3>
-              <p>{descriptions}</p>
               <a href={flink} className="icon mt_30">
                 <i className="ti-arrow-right"></i>
               </a>

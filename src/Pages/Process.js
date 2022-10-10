@@ -26,9 +26,7 @@ const Process = () => {
               aClass="pr_70 pl_70"
               fimage="process_3.png"
               iImg="icon3.png"
-              ftitle="Receive LoA and Invoice"
               flink="mailto:isifofficial.iysa@gmail.com"
-              descriptions="We send LoA and Invoice to your email, if you can't find email LoA and Invoice please check in the spam, or contact our team."
             />
             <div className="dot middle_dot">
               <span className="dot1"></span>
