@@ -27,6 +27,20 @@ const Process = () => {
               fimage="process_3.png"
               
             />
+             <h2>After Registering?</h2>
+            <div className="video_content">
+              <div className="video">
+                <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=YBhdvQ1p5xQ">
+                  <i className="arrow_triangle-right"></i>
+                </a>
+              </div>
+            </div>
+            <Featuresitems
+              rowClass="row flex-row-reverse"
+              aClass="pr_70 pl_70"
+              fimage="process_1.png"
+              
+            />
             <div className="dot middle_dot">
               <span className="dot1"></span>
               <span className="dot2"></span>
