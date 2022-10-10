@@ -25,7 +25,7 @@ const Process = () => {
               rowClass="row flex-row-reverse"
               aClass="pr_70 pl_70"
               fimage="process_3.png"
-              iImg="icon3.png"
+              iImg="icon1.png"
               flink="mailto:isifofficial.iysa@gmail.com"
             />
             <div className="dot middle_dot">
