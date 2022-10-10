@@ -14,10 +14,12 @@ const Process = () => {
           <div className="features_info">
             <img className="dot_img" src={require('../img/home4/divider.png')} alt="" />
             <div className="video_content">
+              <div className="video_info">
                 <div className="ovarlay_color"></div>
                 <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=YHQVYtiiCC0">
                   <i className="arrow_triangle-right"></i>
                 </a>
+              </div>
             </div>
             <Featuresitems
               rowClass="row flex-row-reverse"
