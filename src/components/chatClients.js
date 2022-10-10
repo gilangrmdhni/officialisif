@@ -2,7 +2,7 @@ import React from 'react';
 
 const chatClients = () => {
   return (
-    <div>
+
       <section className="chat_get_started_area">
         <div className="container">
           <div className="chat_get_started_content text-center">
@@ -39,7 +39,7 @@ const chatClients = () => {
           </div>
         </div>
       </section>
-    </div>
+  
   );
 };
 export default chatClients;
