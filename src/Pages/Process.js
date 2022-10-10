@@ -16,9 +16,7 @@ const Process = () => {
             <h2>How To Registration?</h2>
             <div className="video_content">
               <div className="video">
-                <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=DCw862udnZo">
-                  <i className="arrow_triangle-right"></i>
-                </a>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DCw862udnZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <Featuresitems
