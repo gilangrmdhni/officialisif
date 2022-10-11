@@ -13,7 +13,7 @@ const Process = () => {
         <div className="container">
           <div className="features_info">
             <img className="dot_img" src={require('../img/home4/divider.png')} alt="" />
-            <h2>How To Registration?</h2>
+            <h2>How To Register?</h2>
             <div className="video_content">
               <div className="video">
                 <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=DCw862udnZo">
@@ -27,7 +27,7 @@ const Process = () => {
               fimage="process_3.png"
               
             />
-             <h2>After Registering?</h2>
+             <h2>After Registered?</h2>
             <div className="video_content">
               <div className="video">
                 <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=YBhdvQ1p5xQ">
