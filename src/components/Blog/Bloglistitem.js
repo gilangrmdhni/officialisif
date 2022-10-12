@@ -25,7 +25,7 @@ class Bloglistitem extends Component {
                                         <a href="/iysacollaboration" className="learn_btn_two">Read More <i className="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
-                                <div className="blog_list_item mb_50" key={post.id}>
+                                {/* <div className="blog_list_item mb_50" key={post.id}>
                                     <img className="img-fluid" src={require("../../img/" + post.image)} alt="" />
                                     <div className="blog_content">
                                         <div className="post_date">
@@ -41,7 +41,7 @@ class Bloglistitem extends Component {
                                         <p className="f_400 mb_20">{post.bdescription}</p>
                                         <a href="/iysacollaboration" className="learn_btn_two">Read More <i className="ti-arrow-right"></i></a>
                                     </div>
-                                </div>
+                                </div> */}
                             </>
                         )
                     })
