@@ -327,6 +327,15 @@ class CustomNavbar extends Component {
                           Photo
                         </NavLink>
                       </li>
+                      <li className="nav-item">
+                        <NavLink
+                          title="Photo"
+                          className="nav-link"
+                          to="/GalleryF"
+                        >
+                          Video
+                        </NavLink>
+                      </li>
                       {/* <li className="nav-item">
                         <NavLink title="PortfolioSingle" className="nav-link" to="/PortfolioSingle">
                           Portfolio Single
