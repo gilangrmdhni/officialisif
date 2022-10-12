@@ -159,11 +159,11 @@ const ServiceData = {
     Blist: [
         {
             id: '01',
-            image: 'blog-grid/isif2021.jpg',
-            btitle: 'IYSA collaboration with Indonesia International Institute for Life Sciences',
-            bdescription: 'Indonesian Young Scientist Association continues on collaboration with Indonesia International Institute for Life Sciences for holding an international competition called International Science and Invention Fair',
-            pdate: '10',
-            Month: 'March'
+            image: 'blog-grid/2019.jpg',
+            btitle: '27 Hasil Penelitian Siswa dan Mahasiswa Bali Ikut Ajang Internasional ISIF',
+            bdescription: 'Acara ini diikuti peserta dari 11 negara untuk menampilkan hasil penelitian atau hasil karya siswa maupun mahasiswa dalam bidang sains, teknologi, maupun penggabungan keduanya.',
+            pdate: '',
+            Month: '2019'
         },
         // {
         //     id: '02',

@@ -11,14 +11,14 @@ const Bloglists = () => {
                             <img className="img-fluid" src={require('../../img/blog-grid/2019.jpg')} alt="" />
                             <div className="blog_content">
                                 <div className="post_date">
-                                    <h2>10 <span>March</span></h2>
+                                    <h2><span>2019</span></h2>
                                 </div>
                                 <div className="entry_post_info">
                                     By: <a href=".#">Admin</a>
                                     <a href="https://github.com/redheet">Redheet</a>
                                 </div>
                                 <a href=".#">
-                                    <h5 className="f_p f_size_20 f_500 t_color mb-30">IYSA collaboration with Indonesia International Institute for Life Sciences</h5>
+                                    <h5 className="f_p f_size_20 f_500 t_color mb-30">27 Hasil Penelitian Siswa dan Mahasiswa Bali Ikut Ajang Internasional ISIF</h5>
                                 </a>
                                 <p className="f_400 mb-30">Acara ini diikuti peserta dari 11 negara untuk menampilkan hasil penelitian atau hasil karya siswa maupun mahasiswa dalam bidang sains, teknologi, maupun penggabungan keduanya.
                                     Sebelas negara yang ikut dalam acara ini yakni Indonesia sebagai tuan rumah, Malaysia, Vietnam, Thailand, Philippine, Taiwan, Korea, Turkey, Turkmenistan, Germany, dan Zambia.
