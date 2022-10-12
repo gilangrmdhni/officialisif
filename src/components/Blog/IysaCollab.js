@@ -1,14 +1,14 @@
 import React from 'react';
 // import Blogrightsidebar from './Blogrightsidebar';
 import ServiceData from '../Service/ServiceData';
-const Bloglists =()=>{
-    return(
+const Bloglists = () => {
+    return (
         <section className="blog_area sec_pad">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 blog_sidebar_left">
                         <div className="blog_single mb_50">
-                            <img className="img-fluid" src={require('../../img/blog-grid/isif2021.jpg')} alt=""/>
+                            <img className="img-fluid" src={require('../../img/blog-grid/isif2021.jpg')} alt="" />
                             <div className="blog_content">
                                 <div className="post_date">
                                     <h2>10 <span>March</span></h2>
@@ -20,27 +20,20 @@ const Bloglists =()=>{
                                 <a href=".#">
                                     <h5 className="f_p f_size_20 f_500 t_color mb-30">IYSA collaboration with Indonesia International Institute for Life Sciences</h5>
                                 </a>
-                                <p className="f_400 mb-30">By looking at the development and knowledge of children
-                                today about science, invention and innovation, especially in
-                                the field of science, it requires us to know the extent of the
-                                student’s insights, knowledge and abilities in applying their
-                                knowledge of science.
-                                Therefore, our Indonesian Young Scientist Association (IYSA)
-                                Indonesia will hold an international-level Invention
-                                competition called “International Science and Invention Fair
-                                (ISIF)" as the right learning platform to nurture our young
-                                talented inventors who are active, creative and innovative.
-                                Indonesian Young Scientist Association (IYSA) is an
-                                institution that moves on the development of the potential,
-                                talents and creativity of the Indonesian students on
-                                competition and non-scientific competition domestically or
-                                abroad.</p>
-                                <p className="f_400 mb_40">Therefore, IYSA stands as a form of our deep concern
-                                provide opportunities for Indonesian students specifically, in
-                                order to bring up potential and the skills needed and
-                                soul-building competition in themselves. We do this to create
-                                improvements in life. Because, we believe that every student
-                                has potential which can be developed.</p>
+                                <p className="f_400 mb-30">Acara ini diikuti peserta dari 11 negara untuk menampilkan hasil penelitian atau hasil karya siswa maupun mahasiswa dalam bidang sains, teknologi, maupun penggabungan keduanya.
+                                    Sebelas negara yang ikut dalam acara ini yakni Indonesia sebagai tuan rumah, Malaysia, Vietnam, Thailand, Philippine, Taiwan, Korea, Turkey, Turkmenistan, Germany, dan Zambia.
+                                    Sedangkan banyak peserta yakni dari Indonesia sebanyak 101 kelompok, sedangkan dari luar negeri sebanyak 46 peserta.
+                                    Tak ketinggalan, sebagai tempat terselenggaranya event ini, Bali pun ikut berpartisipasi.
+                                    Sebanyak 27 kelompok dari 147 kelompok yang ikut merupakan perwakilan dari siswa maupun mahasiswa Bali.
+                                    Adapun peserta dari bali yakni SMPN 10 Denpasar 4 karya, SMPN 3 Denpasar 1 karya, SMAN 1 Kuta 3 karya, SMAN 1 Denpasar 2 karya, SMAN 1 Memngwi 1 karya, SMAN 3 Denpasar 7 karya, SMAN 4 Denpasar 3 karya, SMAN 7 Denpasar 3 karya, SMAN 8 Denpasar 1 karya, SMA Kristen Harapan Denpasar 1 karya, Universitas Mahasaraswati 1 karya.</p>
+                                <p className="f_400 mb_40">Ketua Indonesian Young Scientist Association (IYSA) Denny Indrayana mengatakan ISIF ini baru dilaksanakan pertama kali.
+
+                                    Untuk ikut dalam event ini pihaknya menerima lebih dari 200 karya yang kemudian diseleksi untuk bisa ikut event ini.
+
+                                    "Karya ada yang diseleksi pada jenjang nasional dan ada yang daftar langsung kami ikutkan tanpa seleksi karena karyanya memang layak ditampilkan di level internasional," kata Denny.
+                                    Kepala Dinas Pendidikan Pemuda dan Olahraga Kota Denpasar, I  Wayan Gunawan berharap dengan kegiatan ini mempu membuka wawasan siswa di Kota Denpasar maupun di Bali untuk melakukan penelitian.
+
+                                    "Karya yang ditampilkan adik-adik peserta sangat luar biasa. Mudah-mudahan dengan interaksi peneliti-peneliti ini, kita yang ada di Kota Denpasar bisa mengembangkan dan membuka wawasan untuk lebih berinovasi demi pemajuan di Denpasar," katanya.</p>
                             </div>
                         </div>
                     </div>
