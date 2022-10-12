@@ -8,7 +8,7 @@ const Bloglists = () => {
                 <div className="row">
                     <div className="col-lg-8 blog_sidebar_left">
                         <div className="blog_single mb_50">
-                            <img className="img-fluid" src={require('../../img/blog-grid/isif2021.jpg')} alt="" />
+                            <img className="img-fluid" src={require('../../img/blog-grid/2019.jpg')} alt="" />
                             <div className="blog_content">
                                 <div className="post_date">
                                     <h2>10 <span>March</span></h2>
