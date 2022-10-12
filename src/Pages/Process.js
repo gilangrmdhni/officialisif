@@ -22,7 +22,7 @@ const Process = () => {
               </div>
             </div>
             <Featuresitems
-              rowClass="row flex-row-reverse"
+               rowClass="row flex-row-reverse"
               aClass="pr_70 pl_70"
               fimage="process_3.png"
               
