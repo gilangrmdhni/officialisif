@@ -200,6 +200,46 @@ class Portfolio3grid extends Component {
               pImg="3-columns/2021/8.jpg"
               ptitle="2021"
             />
+             <Photo
+              colClass="col-lg-4 col-sm-6 web"
+              pImg="3-columns/2021/1.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 web"
+              pImg="3-columns/2022/2.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 web"
+              pImg="3-columns/2022/3.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 web"
+              pImg="3-columns/2022/4.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 web"
+              pImg="3-columns/2022/5.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 web"
+              pImg="3-columns/2022/6.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 web"
+              pImg="3-columns/2022/7.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 web"
+              pImg="3-columns/2022/8.jpg"
+              ptitle="2022"
+            />
 
             {/* example */}
             {/* <Photo colClass="col-lg-4 col-sm-6 web" pImg="3-columns/2020/2.jpg" ptitle="2020" />
