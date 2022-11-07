@@ -327,7 +327,7 @@ class CustomNavbar extends Component {
                           Photo
                         </NavLink>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <NavLink
                           title="Photo"
                           className="nav-link"
@@ -335,7 +335,7 @@ class CustomNavbar extends Component {
                         >
                           Video
                         </NavLink>
-                      </li>
+                      </li> */}
                       {/* <li className="nav-item">
                         <NavLink title="PortfolioSingle" className="nav-link" to="/PortfolioSingle">
                           Portfolio Single
@@ -418,12 +418,12 @@ class CustomNavbar extends Component {
                     </a>
                   </li> */}
                 </ul>
-                <a
+                {/* <a
                   className={`btn_get btn_hover ${hbtnClass}`}
                   href="https://bit.ly/REGISTRATION_ISIF_2022"
                 >
                   ISIF Registration
-                </a>
+                </a> */}
               </div>
             </div>
           </nav>
