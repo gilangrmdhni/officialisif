@@ -6,7 +6,7 @@ const video = () => {
     <section className="video_area bg_color sec_pad">
       <div className="container">
         <Sectitle
-          Title="AFTER EVENT"
+          Title="AFTER EVENT 2022"
           TitleP="This event was joined by multiple countries such as Germany, Turkey, Turkmenistan, Thailand, Philippines, Vietnam, Malaysia, and of course, Indonesia. It was a melting pot of diversity and creativity, place where we can express ourselves."
           tClass="t_color3"
           sClass="sec_title text-center mb_70"
@@ -14,7 +14,7 @@ const video = () => {
         <div className="video_content">
           <div className="video_info">
             <div className="ovarlay_color"></div>
-            <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=YHQVYtiiCC0">
+            <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=OLkXTJuKpOs">
               <i className="arrow_triangle-right"></i>
             </a>
             <h2>ISIF</h2>
