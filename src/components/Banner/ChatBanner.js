@@ -3,8 +3,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import image1 from '../../img/background/bg_1.jpg';
 import image2 from '../../img/background/bg_2.jpg';
 import image3 from '../../img/background/bg_3.jpg';
-import image3 from '../../img/background/bg_4.jpg';
-import image3 from '../../img/background/bg_5.jpg';
 
 const ChatBanner = () => {
   const mystyle = {
@@ -26,18 +24,6 @@ const ChatBanner = () => {
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={image3} alt="NRTC" />
-        <Carousel.Caption>
-          <h3 style={mystyle}>International Science And Invention Fair</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={2000}>
-        <img className="d-block w-100 mr-3" src={image4} alt="ISIF" />
-        <Carousel.Caption>
-          <h3 style={mystyle}>International Science And Invention Fair</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={2000}>
-        <img className="d-block w-100 mr-3" src={image5} alt="ISIF" />
         <Carousel.Caption>
           <h3 style={mystyle}>International Science And Invention Fair</h3>
         </Carousel.Caption>
