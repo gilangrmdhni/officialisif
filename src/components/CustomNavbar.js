@@ -280,6 +280,15 @@ class CustomNavbar extends Component {
                           Guide Book
                         </a>
                       </li>
+                      <li className="nav-item">
+                        <a
+                          href="https://drive.google.com/file/d/1WolMNh6iU3n_9soQZZepuRG0T6O4gqi2/view?usp=share_link"
+                          title="Press Release"
+                          className="nav-link"
+                        >
+                          Press Release
+                        </a>
+                      </li>
                       {/* <li className="nav-item">
                         <a
                           href="https://drive.google.com/drive/folders/1IC52IleDduUCMykdzUKdP7IFJVGUVuLk?usp=sharing"

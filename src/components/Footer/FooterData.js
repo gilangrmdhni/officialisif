@@ -22,6 +22,11 @@ const FooterData = {
           url: '/#categories',
           text: 'Categories',
         },
+        {
+          id: 3,
+          url: ' https://drive.google.com/file/d/1WolMNh6iU3n_9soQZZepuRG0T6O4gqi2/view?usp=share_link',
+          text: 'Press Release',
+        },
       ],
     },
     {
@@ -30,6 +35,7 @@ const FooterData = {
       menuItems: [
         // {
         //   id: 1,
+        // https://drive.google.com/file/d/1WolMNh6iU3n_9soQZZepuRG0T6O4gqi2/view?usp=share_link
         //   url: '/Faq',
         //   text: 'FAQ',
         // },
