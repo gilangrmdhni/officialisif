@@ -9,25 +9,14 @@ class CustomNavbar extends Component {
       nClass,
       cClass,
       slogo,
-      hbtnClass,
+      // hbtnClass,
     } = this.props;
     return (
-      <Sticky
-        top={0}
-        innerZ={9999}
-        activeClass="navbar_fixed"
-      >
+      <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <header className="header_area">
-          <nav
-            className={`navbar navbar-expand-lg menu_one ${mClass}`}
-          >
-            <div
-              className={`container ${cClass}`}
-            >
-              <Link
-                className={`navbar-brand ${slogo}`}
-                to="/"
-              >
+          <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
+            <div className={`container ${cClass}`}>
+              <Link className={`navbar-brand ${slogo}`} to="/">
                 <img
                   src={require('../img/home_isif.png')}
                   alt=""
@@ -65,19 +54,10 @@ class CustomNavbar extends Component {
                 </span>
               </button>
 
-              <div
-                className="collapse navbar-collapse"
-                id="navbarSupportedContent"
-              >
-                <ul
-                  className={`navbar-nav menu ml-auto ${nClass}`}
-                >
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className={`navbar-nav menu ml-auto ${nClass}`}>
                   <li className="nav-item ">
-                    <Link
-                      to="/"
-                      className="nav-link"
-                      title="home"
-                    >
+                    <Link to="/" className="nav-link" title="home">
                       Home
                     </Link>
                     {/* <div className="mega_menu_inner">
@@ -215,7 +195,15 @@ class CustomNavbar extends Component {
                   </li>
 
                   <li className="dropdown submenu nav-item">
-                    <Link to="./" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <Link
+                      to="./"
+                      title="Pages"
+                      className="dropdown-toggle nav-link"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
                       Pages
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
@@ -266,11 +254,7 @@ class CustomNavbar extends Component {
                     >
                       Downloads
                     </Link>
-                    <ul
-                      role="menu"
-                      className=" dropdown-menu"
-                    >
-
+                    <ul role="menu" className=" dropdown-menu">
                       <li className="nav-item">
                         <a
                           href="https://drive.google.com/file/d/1ilWuOn5-sOq2yY7S-vD5WyEc53S1RS4N/view?usp=sharing"
@@ -307,7 +291,6 @@ class CustomNavbar extends Component {
                           Supervisor
                         </a>
                       </li> */}
-                      
                     </ul>
                   </li>
                   <li className="dropdown submenu nav-item">
@@ -322,10 +305,7 @@ class CustomNavbar extends Component {
                     >
                       Gallery
                     </Link>
-                    <ul
-                      role="menu"
-                      className=" dropdown-menu"
-                    >
+                    <ul role="menu" className=" dropdown-menu">
                       {/* <li className="nav-item">
                         <NavLink title="Portfolio 2" className="nav-link" to="/Portfolio-2col">
                           Portfolio 2col
@@ -337,11 +317,7 @@ class CustomNavbar extends Component {
                         </NavLink>
                       </li> */}
                       <li className="nav-item">
-                        <NavLink
-                          title="Photo"
-                          className="nav-link"
-                          to="/GalleryF"
-                        >
+                        <NavLink title="Photo" className="nav-link" to="/GalleryF">
                           Photo
                         </NavLink>
                       </li>
@@ -418,11 +394,7 @@ class CustomNavbar extends Component {
                     </ul>
                   </li> */}
                   <li className="nav-item">
-                    <NavLink
-                      title="Contac"
-                      className="nav-link"
-                      to="/Contact"
-                    >
+                    <NavLink title="Contac" className="nav-link" to="/Contact">
                       Contact
                     </NavLink>
                   </li>
