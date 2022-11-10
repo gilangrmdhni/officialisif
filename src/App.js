@@ -20,7 +20,7 @@ import BlogSingle from './Pages/BlogSingle';
 import Contact from './Pages/Contact';
 import ScrollToTopRoute from './ScrollToTopRoute';
 // import Landing from './Pages/Landing';
-// import homesupport from './Pages/home-support'; 
+// import homesupport from './Pages/home-support';
 // import homeERP from './Pages/Home-ERP';
 // import homeHosting from './Pages/HomeHosting';
 // import homeSecurity from './Pages/HomeSecurity';
@@ -63,13 +63,10 @@ class App extends Component {
           {/* <ScrollToTopRoute path="/Service" component={Service} /> */}
           <ScrollToTopRoute path="/Process" component={Process} />
           {/* <ScrollToTopRoute path="/Team" component={Team} /> */}
-          <ScrollToTopRoute path="/Portfolio-2col" component={Portfolio2col} />
+          <ScrollToTopRoute path="/gallery-video" component={Portfolio2col} />
           <ScrollToTopRoute path="/GalleryF" component={GalleryF} />
           <ScrollToTopRoute path="/Photo" component={Photo} />
-          <ScrollToTopRoute
-            path="/PortfolioSingle"
-            component={PortfolioSingle}
-          />
+          <ScrollToTopRoute path="/PortfolioSingle" component={PortfolioSingle} />
           <ScrollToTopRoute path="/Bloglist" component={Bloglist} />
           <ScrollToTopRoute path="/Iysacollaboration" component={Iysacollab} />
           <ScrollToTopRoute path="/BlogSingle" component={BlogSingle} />
