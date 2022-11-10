@@ -54,6 +54,11 @@ const FooterData = {
           link: 'https://drive.google.com/drive/folders/195oPkTAYTc3JriGHXibKFtN0uUJCB_Er?usp=sharing',
           data: 'Guide Book',
         },
+        {
+          id: 5,
+          link: 'https://drive.google.com/drive/folders/195oPkTAYTc3JriGHXibKFtN0uUJCB_Er?usp=sharing',
+          data: 'Final Result',
+        },
         // {
         //   id: 5,
         //   url: '#',
