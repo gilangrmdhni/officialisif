@@ -222,6 +222,11 @@ class CustomNavbar extends Component {
                       Contact
                     </NavLink>
                   </li>
+                  <li className="nav-item">
+                    <a href="https://drive.google.com/drive/folders/1cAVrGoPw5WI-VhIREswrMP_l7_w5zpX1?usp=share_link" title="Certificate" className="nav-link">
+                      Certificate
+                    </a>
+                  </li>
                   {/* <li className="nav-item">
                     <a
                       title="Winner"
