@@ -105,7 +105,7 @@ class CustomNavbar extends Component {
                       Downloads
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <a
                           href="https://drive.google.com/file/d/1ilWuOn5-sOq2yY7S-vD5WyEc53S1RS4N/view?usp=sharing"
                           title="Guide Book"
@@ -113,7 +113,7 @@ class CustomNavbar extends Component {
                         >
                           Guide Book
                         </a>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <a
                           href="https://drive.google.com/file/d/1WolMNh6iU3n_9soQZZepuRG0T6O4gqi2/view?usp=share_link"
