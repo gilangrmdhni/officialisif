@@ -79,6 +79,15 @@ class Portfolio3grid extends Component {
             >
               2021
             </div>
+            <div
+              data-filter="web"
+              className={`work_portfolio_item ${this.onActive('web')}`}
+              onClick={() => {
+                this.onFilterChange('web');
+              }}
+            >
+              2022
+            </div>
             {/* <div data-filter="fashion" className={`work_portfolio_item ${this.onActive('fashion')}`} onClick={() => {this.onFilterChange("fashion")}}>Fashion</div>
                         <div data-filter="ux" className={`work_portfolio_item ${this.onActive('ux')}`} onClick={() => {this.onFilterChange("ux")}}>UI/UX</div>
                         <div data-filter="product" className={`work_portfolio_item ${this.onActive('product')}`} onClick={() => {this.onFilterChange("product")}}>Product</div> */}
@@ -200,6 +209,52 @@ class Portfolio3grid extends Component {
               pImg="3-columns/2021/8.jpg"
               ptitle="2021"
             />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-1.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-2.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-3.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-4.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-5.jpg"
+              ptitle="2022"
+            />
+            <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-6.jpg"
+              ptitle="2022"
+            />
+               <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-7.jpg"
+              ptitle="2022"
+            />
+               <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-8.jpg"
+              ptitle="2022"
+            />
+               <Photo
+              colClass="col-lg-4 col-sm-6 develop"
+              pImg="3-columns/2022/ni-9.jpg"
+              ptitle="2022"
+            />
+            
 
             {/* example */}
             {/* <Photo colClass="col-lg-4 col-sm-6 web" pImg="3-columns/2020/2.jpg" ptitle="2020" />
